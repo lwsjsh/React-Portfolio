@@ -1,0 +1,23 @@
+.footer {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.footer__container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer__github img {
+  width: 40px;
+}
+
+.footer__linkedin img {
+  width: 30px;
+}
+
+.footer__stack img {
+  width: 100px;
+}

@@ -1,0 +1,45 @@
+.project {
+  color: black;
+  position: relative;
+  width: 500px;
+}
+
+.project > img {
+  width: 100%;
+  height: 285px;
+}
+
+.project__details {
+  display: none;
+}
+
+.project:hover .project__details {
+  position: absolute;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.427);
+  width: 100%;
+  height: 99%;
+  top: 0;
+  display: block;
+}
+
+.project__details a {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.project__details a img {
+  width: 50px;
+}
+
+.project__details h3 {
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+}
+
+.project__details h5 {
+  margin-left: 50px;
+  padding-top: 20px;
+}

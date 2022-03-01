@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #293241;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+}
+
+.navbar h1 {
+  font-size: 40px;
+}
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.navbar__container h3 {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.navbar__container h3:hover {
+  color: #98c1d9;
+  transform: scale(1.2);
+}
+
+.navbar__selected {
+  color: #046d71;
+}
